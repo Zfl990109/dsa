@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zfl/ClionProjects/DSA/list/list.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/zfl/ClionProjects/DSA/list/list.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/zfl/ClionProjects/DSA/main.cpp">
 			<Option target="DSA"/>
 		</Unit>
@@ -89,9 +95,6 @@
 			<Option target="DSA"/>
 		</Unit>
 		<Unit filename="/home/zfl/ClionProjects/DSA/vector/vector.h">
-			<Option target="DSA"/>
-		</Unit>
-		<Unit filename="/home/zfl/ClionProjects/DSA/vector/vector_impl.h">
 			<Option target="DSA"/>
 		</Unit>
 		<Unit filename="/home/zfl/ClionProjects/DSA/CMakeLists.txt">

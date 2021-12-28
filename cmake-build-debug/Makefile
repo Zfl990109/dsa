@@ -143,6 +143,33 @@ DSA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/build
 .PHONY : DSA/fast
 
+list/list.o: list/list.cpp.o
+
+.PHONY : list/list.o
+
+# target to build an object file
+list/list.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/list/list.cpp.o
+.PHONY : list/list.cpp.o
+
+list/list.i: list/list.cpp.i
+
+.PHONY : list/list.i
+
+# target to preprocess a source file
+list/list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/list/list.cpp.i
+.PHONY : list/list.cpp.i
+
+list/list.s: list/list.cpp.s
+
+.PHONY : list/list.s
+
+# target to generate assembly for a file
+list/list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/list/list.cpp.s
+.PHONY : list/list.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -206,6 +233,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DSA"
+	@echo "... list/list.o"
+	@echo "... list/list.i"
+	@echo "... list/list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

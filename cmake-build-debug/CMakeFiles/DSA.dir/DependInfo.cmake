@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zfl/ClionProjects/DSA/list/list.cpp" "/home/zfl/ClionProjects/DSA/cmake-build-debug/CMakeFiles/DSA.dir/list/list.cpp.o"
   "/home/zfl/ClionProjects/DSA/main.cpp" "/home/zfl/ClionProjects/DSA/cmake-build-debug/CMakeFiles/DSA.dir/main.cpp.o"
   "/home/zfl/ClionProjects/DSA/vector/vector.cpp" "/home/zfl/ClionProjects/DSA/cmake-build-debug/CMakeFiles/DSA.dir/vector/vector.cpp.o"
   )

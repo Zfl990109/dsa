@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DSA.dir/list/list.cpp.o"
   "CMakeFiles/DSA.dir/main.cpp.o"
   "CMakeFiles/DSA.dir/vector/vector.cpp.o"
   "DSA"
