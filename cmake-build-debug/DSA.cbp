@@ -91,6 +91,9 @@
 		<Unit filename="/home/zfl/ClionProjects/DSA/vector/vector.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/zfl/ClionProjects/DSA/vector/vector_impl.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/zfl/ClionProjects/DSA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
