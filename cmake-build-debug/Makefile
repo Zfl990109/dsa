@@ -197,6 +197,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+stack/stack_func.o: stack/stack_func.cpp.o
+
+.PHONY : stack/stack_func.o
+
+# target to build an object file
+stack/stack_func.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/stack/stack_func.cpp.o
+.PHONY : stack/stack_func.cpp.o
+
+stack/stack_func.i: stack/stack_func.cpp.i
+
+.PHONY : stack/stack_func.i
+
+# target to preprocess a source file
+stack/stack_func.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/stack/stack_func.cpp.i
+.PHONY : stack/stack_func.cpp.i
+
+stack/stack_func.s: stack/stack_func.cpp.s
+
+.PHONY : stack/stack_func.s
+
+# target to generate assembly for a file
+stack/stack_func.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/stack/stack_func.cpp.s
+.PHONY : stack/stack_func.cpp.s
+
 vector/vector.o: vector/vector.cpp.o
 
 .PHONY : vector/vector.o
@@ -239,6 +266,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... stack/stack_func.o"
+	@echo "... stack/stack_func.i"
+	@echo "... stack/stack_func.s"
 	@echo "... vector/vector.o"
 	@echo "... vector/vector.i"
 	@echo "... vector/vector.s"
