@@ -13,8 +13,18 @@ template<typename T> struct list_node{
     list_node(){}
     list_node(T e, list_psi(T) p = nullptr, list_psi(T) s = nullptr)
         : data(e), pred(p), succ(s){}
-    list_psi(T) insertAsPred(const T& e);   //作为前驱插入
-    list_psi(T) insertAsSucc(const T& e);   //作为后继插入
+    list_psi(T) insertAsPred(const T& e){   //作为前驱插入
+        list_psi(T) x = new list_node(e, pred, this);
+        pred->succ = x;
+        pred = x;
+        return x;
+    }
+    list_psi(T) insertAsSucc(const T& e){   //作为后继插入
+        list_psi(T) x = new list_node(e, this, succ);
+        succ->pred = x;
+        succ = x;
+        return x;
+    }
 };
 template<typename T>
 class list {
@@ -65,6 +75,8 @@ public:
     int deduplicate();      //无序向量去重
     int uniqufy();      //有序向量去重
     void reverse();      //翻转
+    void traverse(void (*)(T&));    //函数指针遍历
+    template<typename VST> void traverse(VST&);     //函数对象遍历
 };
 
 
