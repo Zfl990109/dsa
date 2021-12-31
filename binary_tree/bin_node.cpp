@@ -195,13 +195,6 @@ template<typename T, typename VST>
 void trav_post2(bin_psi(T) x, VST& visit){
     stack<bin_psi(T)> stk;
     while(true){
-        while(x){
-            stk.push(x);
-            x = x->lc;
-        }
-        if(stk.empty()) break;
-        x = stk.pop();
-        visit(x);
-        x = x->rc;
+
     }
 }
