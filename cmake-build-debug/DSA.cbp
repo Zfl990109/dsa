@@ -94,6 +94,9 @@
 		<Unit filename="/home/zfl/ClionProjects/DSA/queue/queue.h">
 			<Option target="DSA"/>
 		</Unit>
+		<Unit filename="/home/zfl/ClionProjects/DSA/queue/queue_func.cpp">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/zfl/ClionProjects/DSA/stack/stack.h">
 			<Option target="DSA"/>
 		</Unit>

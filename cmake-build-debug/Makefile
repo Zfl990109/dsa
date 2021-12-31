@@ -197,6 +197,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+queue/queue_func.o: queue/queue_func.cpp.o
+
+.PHONY : queue/queue_func.o
+
+# target to build an object file
+queue/queue_func.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/queue/queue_func.cpp.o
+.PHONY : queue/queue_func.cpp.o
+
+queue/queue_func.i: queue/queue_func.cpp.i
+
+.PHONY : queue/queue_func.i
+
+# target to preprocess a source file
+queue/queue_func.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/queue/queue_func.cpp.i
+.PHONY : queue/queue_func.cpp.i
+
+queue/queue_func.s: queue/queue_func.cpp.s
+
+.PHONY : queue/queue_func.s
+
+# target to generate assembly for a file
+queue/queue_func.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/queue/queue_func.cpp.s
+.PHONY : queue/queue_func.cpp.s
+
 stack/stack_func.o: stack/stack_func.cpp.o
 
 .PHONY : stack/stack_func.o
@@ -266,6 +293,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... queue/queue_func.o"
+	@echo "... queue/queue_func.i"
+	@echo "... queue/queue_func.s"
 	@echo "... stack/stack_func.o"
 	@echo "... stack/stack_func.i"
 	@echo "... stack/stack_func.s"
