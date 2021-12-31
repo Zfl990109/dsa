@@ -51,7 +51,7 @@ bin_node<T> *binary_tree<T>::attachAsLc(bin_node<T> *x, binary_tree<T> *&tree) {
 
 template<typename T>
 bin_node<T> *binary_tree<T>::attachAsRc(bin_node<T> *x, binary_tree<T> *&tree) {
-    if (x->rc = tree->_root) x->rc->parent = x;
+    if ((x->rc = tree->_root)) x->rc->parent = x;
     _size += tree->_size;
     update_height_above(x);
     removeAt(tree->_root);
