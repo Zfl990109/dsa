@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zfl/ClionProjects/DSA/binary_tree/bin_node.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/zfl/ClionProjects/DSA/binary_tree/bin_node.h">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/zfl/ClionProjects/DSA/binary_tree/binary_tree.cpp">
+			<Option target="DSA"/>
+		</Unit>
+		<Unit filename="/home/zfl/ClionProjects/DSA/binary_tree/binary_tree.h">
+			<Option target="DSA"/>
+		</Unit>
 		<Unit filename="/home/zfl/ClionProjects/DSA/list/list.cpp">
 			<Option target="DSA"/>
 		</Unit>

@@ -143,6 +143,60 @@ DSA/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/build
 .PHONY : DSA/fast
 
+binary_tree/bin_node.o: binary_tree/bin_node.cpp.o
+
+.PHONY : binary_tree/bin_node.o
+
+# target to build an object file
+binary_tree/bin_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/bin_node.cpp.o
+.PHONY : binary_tree/bin_node.cpp.o
+
+binary_tree/bin_node.i: binary_tree/bin_node.cpp.i
+
+.PHONY : binary_tree/bin_node.i
+
+# target to preprocess a source file
+binary_tree/bin_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/bin_node.cpp.i
+.PHONY : binary_tree/bin_node.cpp.i
+
+binary_tree/bin_node.s: binary_tree/bin_node.cpp.s
+
+.PHONY : binary_tree/bin_node.s
+
+# target to generate assembly for a file
+binary_tree/bin_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/bin_node.cpp.s
+.PHONY : binary_tree/bin_node.cpp.s
+
+binary_tree/binary_tree.o: binary_tree/binary_tree.cpp.o
+
+.PHONY : binary_tree/binary_tree.o
+
+# target to build an object file
+binary_tree/binary_tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/binary_tree.cpp.o
+.PHONY : binary_tree/binary_tree.cpp.o
+
+binary_tree/binary_tree.i: binary_tree/binary_tree.cpp.i
+
+.PHONY : binary_tree/binary_tree.i
+
+# target to preprocess a source file
+binary_tree/binary_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/binary_tree.cpp.i
+.PHONY : binary_tree/binary_tree.cpp.i
+
+binary_tree/binary_tree.s: binary_tree/binary_tree.cpp.s
+
+.PHONY : binary_tree/binary_tree.s
+
+# target to generate assembly for a file
+binary_tree/binary_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/binary_tree.cpp.s
+.PHONY : binary_tree/binary_tree.cpp.s
+
 list/list.o: list/list.cpp.o
 
 .PHONY : list/list.o
@@ -287,6 +341,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DSA"
+	@echo "... binary_tree/bin_node.o"
+	@echo "... binary_tree/bin_node.i"
+	@echo "... binary_tree/bin_node.s"
+	@echo "... binary_tree/binary_tree.o"
+	@echo "... binary_tree/binary_tree.i"
+	@echo "... binary_tree/binary_tree.s"
 	@echo "... list/list.o"
 	@echo "... list/list.i"
 	@echo "... list/list.s"

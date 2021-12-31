@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -g   CMakeFiles/DSA.dir/main.cpp.o CMakeFiles/DSA.dir/vector/vector.cpp.o CMakeFiles/DSA.dir/list/list.cpp.o CMakeFiles/DSA.dir/stack/stack_func.cpp.o CMakeFiles/DSA.dir/queue/queue_func.cpp.o  -o DSA 
+/usr/bin/c++   -std=c++11 -g   CMakeFiles/DSA.dir/main.cpp.o CMakeFiles/DSA.dir/vector/vector.cpp.o CMakeFiles/DSA.dir/list/list.cpp.o CMakeFiles/DSA.dir/stack/stack_func.cpp.o CMakeFiles/DSA.dir/queue/queue_func.cpp.o CMakeFiles/DSA.dir/binary_tree/binary_tree.cpp.o CMakeFiles/DSA.dir/binary_tree/bin_node.cpp.o  -o DSA 
