@@ -194,7 +194,25 @@ void trav_post1(bin_psi(T) x, VST& visit){
 template<typename T, typename VST>
 void trav_post2(bin_psi(T) x, VST& visit){
     stack<bin_psi(T)> stk;
+    bin_psi(T) pre = x;     //辅助判断标记,表示前一个访问的节点指针
     while(true){
-
+        while (x){
+            stk.push(x);
+            x = x->lc;
+        }
+        if (stk.empty()) break;
+        x = stk.top();
+        if (has_rc(*x) && pre != x->rc){
+            x = x->rc;
+        } else{
+            visit(x);
+            pre = x;
+            stk.pop();
+            x = nullptr;
+        }
     }
+}
+//TODO:通过对先序遍历进行翻转
+template<typename T, typename VST>
+void trav_post3(bin_psi(T) x, VST& visit){
 }
