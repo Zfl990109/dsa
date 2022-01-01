@@ -4,6 +4,7 @@
 
 #include "bin_node.h"
 #include "../stack/stack.h"
+#include "../queue/queue.h"
 #include<iostream>
 
 template<typename T> bin_psi(T) bin_node<T>::succ(){
@@ -20,8 +21,16 @@ template<typename T> bin_psi(T) bin_node<T>::succ(){
 
 template<typename T>
 template<typename VST>
-void bin_node<T>::trav_level(VST &) {
-
+void bin_node<T>::trav_level(VST &visit) {
+    queue<bin_psi(T)> queue;
+    bin_psi(T) x = this;
+    queue.enqueue(x);
+    while (!queue.empty()){
+        x = queue.dequeue();
+        visit(x);
+        if (has_lc(*x)) queue.enqueue(x->lc);
+        if (has_rc(*x)) queue.enqueue(x->rc);
+    }
 }
 
 template<typename T>

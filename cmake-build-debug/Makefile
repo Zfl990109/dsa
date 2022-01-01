@@ -197,6 +197,60 @@ binary_tree/binary_tree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/binary_tree.cpp.s
 .PHONY : binary_tree/binary_tree.cpp.s
 
+binary_tree/huffman_tree.o: binary_tree/huffman_tree.cpp.o
+
+.PHONY : binary_tree/huffman_tree.o
+
+# target to build an object file
+binary_tree/huffman_tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/huffman_tree.cpp.o
+.PHONY : binary_tree/huffman_tree.cpp.o
+
+binary_tree/huffman_tree.i: binary_tree/huffman_tree.cpp.i
+
+.PHONY : binary_tree/huffman_tree.i
+
+# target to preprocess a source file
+binary_tree/huffman_tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/huffman_tree.cpp.i
+.PHONY : binary_tree/huffman_tree.cpp.i
+
+binary_tree/huffman_tree.s: binary_tree/huffman_tree.cpp.s
+
+.PHONY : binary_tree/huffman_tree.s
+
+# target to generate assembly for a file
+binary_tree/huffman_tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/binary_tree/huffman_tree.cpp.s
+.PHONY : binary_tree/huffman_tree.cpp.s
+
+bitmap/bitmap.o: bitmap/bitmap.cpp.o
+
+.PHONY : bitmap/bitmap.o
+
+# target to build an object file
+bitmap/bitmap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/bitmap/bitmap.cpp.o
+.PHONY : bitmap/bitmap.cpp.o
+
+bitmap/bitmap.i: bitmap/bitmap.cpp.i
+
+.PHONY : bitmap/bitmap.i
+
+# target to preprocess a source file
+bitmap/bitmap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/bitmap/bitmap.cpp.i
+.PHONY : bitmap/bitmap.cpp.i
+
+bitmap/bitmap.s: bitmap/bitmap.cpp.s
+
+.PHONY : bitmap/bitmap.s
+
+# target to generate assembly for a file
+bitmap/bitmap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DSA.dir/build.make CMakeFiles/DSA.dir/bitmap/bitmap.cpp.s
+.PHONY : bitmap/bitmap.cpp.s
+
 list/list.o: list/list.cpp.o
 
 .PHONY : list/list.o
@@ -347,6 +401,12 @@ help:
 	@echo "... binary_tree/binary_tree.o"
 	@echo "... binary_tree/binary_tree.i"
 	@echo "... binary_tree/binary_tree.s"
+	@echo "... binary_tree/huffman_tree.o"
+	@echo "... binary_tree/huffman_tree.i"
+	@echo "... binary_tree/huffman_tree.s"
+	@echo "... bitmap/bitmap.o"
+	@echo "... bitmap/bitmap.i"
+	@echo "... bitmap/bitmap.s"
 	@echo "... list/list.o"
 	@echo "... list/list.i"
 	@echo "... list/list.s"
